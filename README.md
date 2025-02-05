@@ -33,8 +33,8 @@ A FastAPI-based web service that classifies numbers based on their mathematical 
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/rhoda-lee/hng12-internship.git
-cd hng12-internship/stage1
+git clone https://github.com/rhoda-lee/numbers-classification-api.git
+cd numbers-classification-api
 ```
 
 ### Create & Activate a Virtual Environment
@@ -91,7 +91,7 @@ http://127.0.0.1:8000/api/classify-number?number=371
 ```
 
 ## Deployment
-### Deploy to Render
+### Deploy to Railway
 - Push your code to GitHub
 - Create a new FastAPI service on Render
 - Set the Start Command as
@@ -99,7 +99,7 @@ http://127.0.0.1:8000/api/classify-number?number=371
 uvicorn app:app --host 0.0.0.0 --port $PORT
 ```
 
-- Deploy and get your public API URL!
+- Deploy and get your public API URL
 
 ## Running Tests
 - Use Postman or cURL to test the API.
